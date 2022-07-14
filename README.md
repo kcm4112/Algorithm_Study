@@ -20,6 +20,7 @@
 ||날짜|알고리즘|출처|문제1|문제2|문제3|문제4|
 |--|--|--|--|--|--|--|--|
 |**1주차**|07.07. ~ 07.14.|DP + 구현|백준|[숫자야구](https://www.acmicpc.net/problem/2503)|[도로의 개수](https://www.acmicpc.net/problem/1577)|[카드 구매하기](https://www.acmicpc.net/problem/11052)|[동전1](https://www.acmicpc.net/problem/2293)|
+|**2주차**|07.14. ~ 07.21.|문자열 + 정렬|백준|[문자열 폭발](https://www.acmicpc.net/problem/9935) | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | [괄호 제거](https://www.acmicpc.net/problem/2800) | [센서](https://www.acmicpc.net/problem/2212) |
 
 
 </details>
