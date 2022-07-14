@@ -1,6 +1,6 @@
 ﻿## **❤문제 해석**
 ​
-[##_Image|kage@GncyN/btrGKSGaQNb/4uJSrkr6yqoxPV3siuDlU0/img.png|CDM|1.3|{"originWidth":1009,"originHeight":1280,"style":"alignLeft","width":558}_##]
+![img](https://user-images.githubusercontent.com/99114456/178961963-94b9fdff-6394-48ea-8b2e-1fafc23fe825.png)
 ​
 그림에서 각 열은 DP \[1\], DP \[2\], DP \[3\], DP \[4\]를 의미한다. 행은 없다고 생각해도 좋다. 1차원 배열로 만들 것이기 때문이다.
 ​
