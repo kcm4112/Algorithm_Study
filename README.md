@@ -22,6 +22,7 @@
 |**1주차**|07.07. ~ 07.14.|DP + 구현|백준|[숫자야구](https://www.acmicpc.net/problem/2503)|[도로의 개수](https://www.acmicpc.net/problem/1577)|[카드 구매하기](https://www.acmicpc.net/problem/11052)|[동전1](https://www.acmicpc.net/problem/2293)|
 |**2주차**|07.14. ~ 07.21.|문자열 + 정렬|백준|[문자열 폭발](https://www.acmicpc.net/problem/9935) | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | [괄호 제거](https://www.acmicpc.net/problem/2800) | [센서](https://www.acmicpc.net/problem/2212) |
 |**3주차**|07.21. ~ 07.28.| 그리디 |백준|[동전 0](https://www.acmicpc.net/problem/11047) | [DNA](https://www.acmicpc.net/problem/1969) | [단어 수학](https://www.acmicpc.net/problem/1339) | [과제](https://www.acmicpc.net/problem/13904) |[강창민](https://github.com/kcm4112)|
+|**4주차**|07.28. ~ 08.04.| DFS,BFS |백준|[빙산](https://www.acmicpc.net/problem/2573) | [토마토](https://www.acmicpc.net/problem/7569) | [촌수계산](https://www.acmicpc.net/problem/2644) | []() |[이재한](https://github.com/jaehan4707)|
 
 
 </details>
