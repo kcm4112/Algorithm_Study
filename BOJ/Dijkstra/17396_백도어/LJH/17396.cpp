@@ -1,18 +1,17 @@
 /*
 백준 골드5 백도어
 시간초과 나서 인접행렬 말고 인접리스트로 풀어야할듯.
+우선순위큐를 이용해서 거리가 작은 순으로 queue에 넣기.
 */
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <queue>
 using namespace std;
-#define INF 1316134911
+#define INF 30000000001
 int n, m;
-vector<vector<int>> graph;
-vector<int> visit;
-vector<int> ward;
-vector<int> location;
-vector<int> d;
+vector<long long> ward;
+vector<long long> d;
 int answer = 0;
 void back(int start);
 int smallIdx(int start);
@@ -20,104 +19,52 @@ bool flag = 0;
 int main()
 {
     cin >> n >> m;
-    visit.resize(n, 0), ward.resize(n, 0), d.resize(n, INF), graph.resize(n, vector<int>(n, INF));
+    vector<pair<int, long long>> p[n];
+    ward.resize(n, 0), d.resize(n, INF);
     for (int i = 0; i < n; i++)
     {
-        int a;
-        cin >> a;
-        ward[i] = a; // n-1번째 분기점은  지나가도 됨. 따라서 ward값이 1이면 못지나가는데 n-1은 무조건 1이라서 상관없음
+        cin >> ward[i];
     }
-    ward[n - 1] = 0;
+    ward[n - 1] = 0; //마지막 도착지는 와드에 어쩔수 없이 보이기 때문에 0으로 바꿔줘야함.
     for (int i = 0; i < m; i++)
     {
         int s, f, v;
         cin >> s >> f >> v;
-        graph[s][f] = v;
-        graph[f][s] = v;
+        p[s].push_back(make_pair(f, v));
+        p[f].push_back(make_pair(s, v));
+        //양방향이기에 둘 다 넣어줌.
     }
-    for (int i = 0; i < n; i++)
+    priority_queue<pair<long long, int>, vector<pair<long long, int>>, greater<pair<long long, int>>> PQ;
+    //PQ에는 (value,도착지)가 들어감.
+    PQ.push(make_pair(0, 0));
+    while (0 != PQ.size())
     {
-        graph[i][i] = 0; //자기 자신을 향한 경로는 0으로 초기화
-        location[i] = 0; //모든 점을 0에 대한 것으로 일단 연결
-    }
-    d[0] = 0;
-    back(0);
-    if (flag == 1)
-    { //목적지까지 잘갔다.
-        cout << answer;
-    }
-    else
-        cout << -1;
-    //무조건 출발은 0번인듯. 넥서스는 n-1이고. 따라서 0에서 n-1까지 가는 최소의 경로를 찾아야함.
-}
-int smallIdx(int start)
-{
-    int sidx = 0, Max = INF;
-    for (int i = 0; i < n; i++)
-    {
-        if (i == start || visit[i] == true)
+        pair<long long, int> pa = PQ.top(); // p에다가 PQ에 top을 저장함. (value,도착지)
+        PQ.pop();
+        //나는 pq에 도착지와 거리를 넣고싶음.
+        if (pa.first > d[pa.second]) //도착지까지의 거리인 pa.first 와 거리테이블을 d[pa.second]를 비교함.
         {
-            // cout<<"TEEST "<<i<<endl;
+            //만약 거리테이블보다 크다면 탐색할필요가 없음.
             continue;
         }
-        if (d[i] < Max)
-        {
-            // cout<<"TEST"<<i<<endl;
-            Max = d[i];
-            sidx = i;
-        }
-    }
-    return sidx;
-}
-void back(int start)
-{
-    // cout << start << "방문!" << endl;
-    if (visit[start] == 1)
-    {
-        // cout << "이미 방문했습니다" << endl;
-        return;
-    }
-    visit[start] = 1; //방문처리
-    //
-    for (int i = 0; i < n; i++)
-    { //차례대로 방문을 해서 거리테이블을 최신화함.
-        if (visit[i] == 1 || ward[i] == 1)
-        { //방문했거나,시야가 있다면 해당 지점은 못감.
-            // cout << i << "는 와드가 있거나 방문했습니다" << endl;
-            continue;
-        }
-        if (d[i] > graph[start][i])
-        {
-            // cout << start << "에서 " << i << "는 최신화해줍니다" << endl;
-            d[i] = min(d[i], min(graph[start][i], graph[i][start]));
-            location[i] = start;
-        }
-    }
-    /*  //거리테이블 최산화 끝
-     for (auto a : d)
-     {
-         cout << a << " ";
-     }
-     cout << endl;
-     for (auto b : location)
-     {
-         cout << b << " ";
-     }
-     cout << endl; */
-    if (start == n - 1)
-    {
-        flag = 1;
-        for (auto a : visit)
-        {
-            if (a == 1)
+        for (auto a : p[pa.second]) //현재 갈 수 있는 모든지역을 탐색함.
+        {    //p에는 (도착지,value)가 저장됨.
+            if (ward[a.first] == 1) //도착지가 와드시야에 보인다면 넘겨준다.
             {
-                answer += a;
+                continue;
+            }
+            pair<long long, int> next = { a.second + pa.first, a.first }; //next에는 (도착지까지의 거리,도착지)가 저장됨.
+            if (next.first < d[a.first]) //현재 입력된 거리보다 거리테이블의 거리가 크다면 최신화해줌.
+            {
+                d[next.second] = next.first; //거리테이블을 최신화해줌.
+                PQ.push(next); //PQ에 넣어줌.
             }
         }
-        return;
     }
-    int ridx = smallIdx(start);
-    // cout << start << "에서 최소 여행지는" << ridx << "입니다" << endl;
-    back(ridx);
-    visit[ridx] = 0;
+    if (d[n - 1] == INF) //만약 넥서스까지의 거리가 INF면 도달 못한다는 뜻.
+    {
+        cout << -1;
+    }
+    else
+        cout << d[n - 1];
 }
