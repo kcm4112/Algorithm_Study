@@ -9,7 +9,8 @@
 
 분할 정복이 일반적인 재귀 호출과 다른 점은 문제를 한 조각과 나머지 전체로 나누는 대신 거의 같은 크기의 부분 문제로 나눈다는 것이다. 아래의 두 그림이 이 둘의 차이점을 나타낸 그림이라 할 수 있다.
 
-![image](https://user-images.githubusercontent.com/42794501/186599189-77952509-d3d2-4ea2-a808-fa27ca300153.png)![image](https://user-images.githubusercontent.com/42794501/186599264-5415ab60-651d-4e83-baad-0557eea6867f.png)
+![image](https://user-images.githubusercontent.com/42794501/186599189-77952509-d3d2-4ea2-a808-fa27ca300153.png)  
+![image](https://user-images.githubusercontent.com/42794501/186599264-5415ab60-651d-4e83-baad-0557eea6867f.png)
 
 위의 그림은 항상 문제를 **한 조각**과 **나머지**로 쪼개는 일반적인 재귀 호출 알고리즘을 보여주고,   
 아래의 그림은 항상 문제를 **절반씩**으로 나누는 분할 정복 알고리즘을 보여준다. 
