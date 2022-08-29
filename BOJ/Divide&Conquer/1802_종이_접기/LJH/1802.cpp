@@ -1,56 +1,69 @@
 /*
-백준 실버2 종이접기
-종이가 시계방향으로 꺾여있으면 out, 반시계방향으로 꺾여잇으면 IN
+백준  골드5 5904 Moo게임
 */
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <deque>
+
 using namespace std;
 int n;
-vector<string> answer;
-bool paper(string str, int s, int f);
+vector<string> str;
+void moo(string str, int i);
 int main()
 {
+    string str = "moo";
     cin >> n;
-    for (int i = 0; i < n; i++)
-    {
-        string str;
-        cin >> str;
-        if (str.length() == 1) //1이면 무조건 접을 수 있음.
-        {
-            cout << "YES" << endl;
-            continue;
-        }
-        //  cout<<str<<endl;
-        if (paper(str, 0, str.length() - 1) == true)
-        {
-            cout << "YES" << endl;
-        }
-        else
-        {
-            cout << "NO" << endl;
-        }
-    }
+    moo(str, 0);
+
+    /*  for(int i=0; i<str.size();i++){
+         cout<<str[i]<<endl;
+     } */
 }
-bool paper(string str, int s, int f)
+void moo(string str, int i)
 {
-    if (s >= f)
+    int step = i + 1;
+    string m = "m";
+    int size = n - str.length();
+    if (size <= step * 2)
     {
-        return true;
-    }
-    int left = s, right = f;
-    while (left < right)
-    {
-        if (str[left] != str[right])
-        {
-            left++, right--;
+        if (size == 1) {
+            cout << "m";
+            return;
         }
-        else
-        {
-            return false;
-            // break;
+        else {
+            cout << "o";
+            return;
         }
     }
-    return paper(str, s, right - 1);
+    else if (size >= step * 2) {
+        cout << str[size - step * 2];
+        return;
+    }
+    else
+    {
+
+        for (int j = step; j <= 2 + step; j++)
+        {
+            m += "o";
+        }
+    }
+    moo(str + m + str, step);
 }
+/*
+void moo(int i){
+    int step=i+1;
+    if(str[i].length()>=n){
+        //cout<<n<<"번째 문자열은 "<<str[i][n-1]<<endl;
+        cout<<str[i][n-1];
+        return ;
+    }
+    else{
+        string m="m";
+        for(int j=step; j<=step+2;j++){
+            m+="o";
+        }
+        str.push_back(str[i]+m+str[i]);
+    }
+    moo(step);
+}
+*/
