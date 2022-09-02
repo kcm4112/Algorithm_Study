@@ -27,6 +27,8 @@
 | **6주차** |08.11 ~ 08.18.| Dijkstra |백준 |[지름길](https://www.acmicpc.net/problem/1446) | [최소비용 구하기](https://www.acmicpc.net/problem/1916) | [백도어](https://www.acmicpc.net/problem/17396) | [최단경로](https://www.acmicpc.net/problem/1753) |[서정록](https://github.com/seojeongrok) |
 | **7주차** |08.18 ~ 08.25.| 구현 |백준 |[인구이동](https://www.acmicpc.net/problem/16234) | [싸이버개강총회](https://www.acmicpc.net/problem/19583) | [추월](https://www.acmicpc.net/problem/2002) | [AC](https://www.acmicpc.net/problem/5430) |  |
 | **8주차** |08.25 ~ 09.01.| 분할정복 |백준 |[Moo게임](https://www.acmicpc.net/problem/5904)| [종이의 개수](https://www.acmicpc.net/problem/1780)| [종이접기](https://www.acmicpc.net/problem/1802) | [쿼드트리](https://www.acmicpc.net/problem/1992) | [이지언](https://github.com/Leejieon) |
+| **9주차** |09.01 ~ 09.08.| DP |백준 |[포도주 시식](https://www.acmicpc.net/problem/2156)| [데스노트](https://www.acmicpc.net/problem/2281)| [동물원](https://www.acmicpc.net/problem/1309) | [돌 게임3](https://www.acmicpc.net/problem/9657) |  |
+
 
 
 </details>
