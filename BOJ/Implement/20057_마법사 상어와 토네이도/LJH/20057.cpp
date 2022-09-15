@@ -10,7 +10,7 @@ vector<vector<int>> g;
 vector<int> x{ 0, 1, 0, -1 };
 vector<int> y{ -1, 0, 1, 0 };
 vector<double> z{ 0.01, 0.07, 0.1, 0.02, 0.05 };
-int out = 0, step = 0, dist =1;
+int out = 0, step = 0, dist = 1;
 void location(int a, int b, int temp, int k);
 int main()
 {
@@ -23,15 +23,11 @@ int main()
             cin >> g[i][j];
         }
     }
-    int nowR =n/2, nowC = n/2;
-    int afterR, afterC;
-    int move = 0;
+    int nowR = n / 2, nowC = n / 2, afterR, afterC, move = 0;
     bool check = true;
     //2번 회전할때마다 거리가 1씩 증가.
     while (check)
     { // 1,1까지 이동한 뒤 소멸해야함.
-        //가로로 이동할때마다 이동하는 칸 수가 한칸씩 늘어남.
-        //cnt = cnt + 1;
         int csand = g[nowR][nowC];    //현재 좌표에서 모래
         afterR = nowR + x[move];      //움직여 준다.
         afterC = nowC + y[move];      //움직여 준다.
@@ -64,7 +60,7 @@ int main()
         }
         else if (move == 1)
         { //아래로 한칸                    
-            step+=1;
+            step += 1;
             for (int k = 0; k < 3; k++)
             {
                 location(nowR + k, nowC - 1, temp, k);
@@ -125,7 +121,7 @@ int main()
             sum += temp * z[3];
             location(afterR, afterC - 2, temp, 3);
             sum += temp * z[3];
-          //  g[nowR + 3 * x[move]][nowC + 3 * y[move]] += temp * z[4];
+            //  g[nowR + 3 * x[move]][nowC + 3 * y[move]] += temp * z[4];
             location(nowR + 3 * x[move], nowC + 3 * y[move], temp, 4);
             sum += temp * z[4];
             // sum에는 이제 다 분배된 모래가 들어있음. 이제 나머지는 알파에 넣어야함.
@@ -141,7 +137,7 @@ int main()
         if (nowR == 0 && nowC == 0) {
             check = false;
         }
-        if (move % 2 == 1 && step==dist) {
+        if (move % 2 == 1 && step == dist) {
             dist = dist + 1; //dist만큼 방향을 전진 시켜야함.
             move = (move + 1) % 4;
             step = 0;
@@ -160,5 +156,6 @@ void location(int a, int b, int temp, int k)
         out += temp * z[k];
     else
         g[a][b] += temp * z[k];
-    
+
 }
+
