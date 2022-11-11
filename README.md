@@ -43,7 +43,7 @@
 | **11주차** |09.16 ~ 09.23.| 문자열/정렬 |백준 |[공통 부분 문자열](https://www.acmicpc.net/problem/5582)| [절사평균](https://www.acmicpc.net/problem/6986)| [회문](https://www.acmicpc.net/problem/17609) | [](https://www.acmicpc.net/problem/9657) |  |
 | **12주차** |09.30 ~ 10.06| 문자열/정렬 |백준 |[강의실배정](https://www.acmicpc.net/problem/11000)| [전화번호 목록](https://www.acmicpc.net/problem/5052)| [단어 맞추기](https://www.acmicpc.net/problem/9081) | [배](https://www.acmicpc.net/problem/1092) |  |
 | **13주차** |10.07 ~ 10.28| BFS/DFS |백준 |[치즈](https://www.acmicpc.net/problem/2636)| [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)| [효율적인 해킹](https://www.acmicpc.net/problem/1325) | [맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205) |  |
-| **14주차** |11.11 ~ 11.18| BFS/DFS |백준 |[알파벳](https://www.acmicpc.net/problem/1987)| [나무 탈출](https://www.acmicpc.net/problem/15900)| [점프왕젤리(L)](https://www.acmicpc.net/problem/16174) | [](https://www.acmicpc.net/problem/2668) |  |
+| **14주차** |11.11 ~ 11.18| BFS/DFS |백준 |[알파벳](https://www.acmicpc.net/problem/1987)| [나무 탈출](https://www.acmicpc.net/problem/15900)| [점프왕젤리(L)](https://www.acmicpc.net/problem/16174) | [숫자고르기](https://www.acmicpc.net/problem/2668) |  |
 
 
 
