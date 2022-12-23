@@ -1,17 +1,17 @@
-## **📘 스터디 규칙**
+## **📃 스터디 규칙**
 
-1. 매주 목요일 오후 7시 대면 회의를 1회 진행한다. (장소와 시간은 변경될 수 있음)
-2. 문제 풀이 기한은 목요일 ~ 다음주 회의 전까지이다.
+1. 매주 금요일 오후 7시 대면 회의를 1회 진행한다. (장소와 시간은 변경될 수 있음)
+2. 문제 풀이 기한은  ~ 다음주 회의 전까지이다.
 3. 매주 4개의 문제를 풀이
 4. 본인 코드 설명은 템플릿을 참고하여 `README.md`에 기록
 5. 다른 사람의 코드를 보고 코드 리뷰할 것이 있으면 코멘트 남기기.
 
-## **📘 스터디 패널티**
+## **❌ 스터디 패널티❌**
 
 1. 문제 고의적으로 문제를 풀지 않을 시,  5천원
 2. 스터디 고의적으로 참여하지 않을 시,  5천원
 
-## **📘 문제집**
+## **📕 문제집**
 
 <details>
 <summary>1주차 ~ 10주차</summary>
@@ -38,14 +38,14 @@
 <summary>11주차 ~ 20주차</summary>
 <br>
   
-||날짜|알고리즘|출처|문제1|문제2|문제3|문제4|
+||날짜|알고리즘|출처 |문제1|문제2|문제3|문제4|
 |--|--|--|--|--|--|--|--|
 | **11주차** |09.16 ~ 09.23.| 문자열/정렬 |백준 |[공통 부분 문자열](https://www.acmicpc.net/problem/5582)| [절사평균](https://www.acmicpc.net/problem/6986)| [회문](https://www.acmicpc.net/problem/17609) | [](https://www.acmicpc.net/problem/9657) |  |
 | **12주차** |09.30 ~ 10.06| 문자열/정렬 |백준 |[강의실배정](https://www.acmicpc.net/problem/11000)| [전화번호 목록](https://www.acmicpc.net/problem/5052)| [단어 맞추기](https://www.acmicpc.net/problem/9081) | [배](https://www.acmicpc.net/problem/1092) |  |
 | **13주차** |10.07 ~ 10.28| BFS/DFS |백준 |[치즈](https://www.acmicpc.net/problem/2636)| [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)| [효율적인 해킹](https://www.acmicpc.net/problem/1325) | [맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205) |  |
 | **14주차** |11.11 ~ 11.18| BFS/DFS |백준 |[알파벳](https://www.acmicpc.net/problem/1987)| [나무 탈출](https://www.acmicpc.net/problem/15900)| [점프왕젤리(L)](https://www.acmicpc.net/problem/16174) | [숫자고르기](https://www.acmicpc.net/problem/2668) |  |
 | **15주차** |11.18 ~ 11.25| 다익스트라 |백준 |[특정거리의 도시 찾기](https://www.acmicpc.net/problem/18352)| [숨바꼭질3](https://www.acmicpc.net/problem/13549)| [녹색 옷 입은애가 젤다지?](https://www.acmicpc.net/problem/4485) | [알고스팟](https://www.acmicpc.net/problem/1261) |  |
-
+| **16주차** |12.23 ~ 12.30| 다익스트라 |백준 &</br>프로그래머스|[사다리 타기](https://www.acmicpc.net/problem/2469)| [Puyo Puyo](https://www.acmicpc.net/problem/11599)| [드래곤 커브](https://www.acmicpc.net/problem/11599) | [택배상자](https://school.programmers.co.kr/learn/courses/30/lessons/131704) |  |
 
 
 
@@ -54,7 +54,7 @@
     
     
 
-## **📘 폴더 구조**
+## **🗂 폴더 구조**
 
 [문제 출처] / [알고리즘명] / [문제 제목] / [이름]
 
@@ -62,7 +62,7 @@
 
 EX : 11053_가장_긴_증가하는_부분_수열
 
-## **📘 깃허브 사용법**
+## **🔎 깃허브 사용법**
 
 ### **전체적인 흐름**
 
