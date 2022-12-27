@@ -1,5 +1,5 @@
 ## 풀이 
----
+
 
 1. 우선 주어진 입력값을 받은 다음 2중 for문을 돌며 .이 아닌 문자를 만날 때마다 bfs 탐색을 시작한다. </br>
 2. 주어진 map의 (0,0)부터 (11, 5)까지 2중 for문을 한번 완료할 때마다 그 횟수를 체크한다. (변수명, pyuo) </br>
@@ -13,7 +13,8 @@
 ## 코드
 
 ```java
-  import java.io.*;
+
+import java.io.*;
 import java.util.*;
 class Pyuo {
     int row;
