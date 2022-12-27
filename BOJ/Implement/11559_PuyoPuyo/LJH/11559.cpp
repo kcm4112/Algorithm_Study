@@ -21,7 +21,7 @@ queue<pair<int, int>> q;
 vector<vector<char>> graph;
 vector<vector<int>> visit;
 vector<int> x = {1, -1, 0, 0};
-vector<int> y = {0, 0, 1, -1}; // 상하 좌우 방향 벡터
+vector<int> y = {0, 0, 1, -1}; 
 vector<int> color = {0, 0, 0, 0, 0};
 vector<pair<int, int>> p;
 void PuPu();
