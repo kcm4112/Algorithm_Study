@@ -45,7 +45,7 @@
 | **13주차** |10.07 ~ 10.28| BFS/DFS |백준 |[치즈](https://www.acmicpc.net/problem/2636)| [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)| [효율적인 해킹](https://www.acmicpc.net/problem/1325) | [맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205) |  |
 | **14주차** |11.11 ~ 11.18| BFS/DFS |백준 |[알파벳](https://www.acmicpc.net/problem/1987)| [나무 탈출](https://www.acmicpc.net/problem/15900)| [점프왕젤리(L)](https://www.acmicpc.net/problem/16174) | [숫자고르기](https://www.acmicpc.net/problem/2668) |  |
 | **15주차** |11.18 ~ 11.25| 다익스트라 |백준 |[특정거리의 도시 찾기](https://www.acmicpc.net/problem/18352)| [숨바꼭질3](https://www.acmicpc.net/problem/13549)| [녹색 옷 입은애가 젤다지?](https://www.acmicpc.net/problem/4485) | [알고스팟](https://www.acmicpc.net/problem/1261) |  |
-| **16주차** |12.23 ~ 12.30| 다익스트라 |백준 &</br>프로그래머스|[사다리 타기](https://www.acmicpc.net/problem/2469)| [Puyo Puyo](https://www.acmicpc.net/problem/11559)| [드래곤 커브](https://www.acmicpc.net/problem/11599) | [택배상자](https://school.programmers.co.kr/learn/courses/30/lessons/131704) |  |
+| **16주차** |12.23 ~ 12.30| 다익스트라 |백준 &</br>프로그래머스|[사다리 타기](https://www.acmicpc.net/problem/2469)| [Puyo Puyo](https://www.acmicpc.net/problem/11559)| [드래곤 커브](https://www.acmicpc.net/problem/15685) | [택배상자](https://school.programmers.co.kr/learn/courses/30/lessons/131704) |  |
 
 
 
