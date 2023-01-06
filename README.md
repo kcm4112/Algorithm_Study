@@ -47,7 +47,7 @@
 | **15주차** |11.18 ~ 11.25| 다익스트라 |백준 |[특정거리의 도시 찾기](https://www.acmicpc.net/problem/18352)| [숨바꼭질3](https://www.acmicpc.net/problem/13549)| [녹색 옷 입은애가 젤다지?](https://www.acmicpc.net/problem/4485) | [알고스팟](https://www.acmicpc.net/problem/1261) |  |
 | **16주차** |12.23 ~ 12.30| 구현 |백준 &</br>프로그래머스|[사다리 타기](https://www.acmicpc.net/problem/2469)| [Puyo Puyo](https://www.acmicpc.net/problem/11559)| [드래곤 커브](https://www.acmicpc.net/problem/15685) | [택배상자](https://school.programmers.co.kr/learn/courses/30/lessons/131704) |  |
 | **17주차** |12.30 ~ 01.06| 분할정복 |백준 &</br>프로그래머스|[색종이만들기](https://www.acmicpc.net/problem/2630)| [레벨 햄버거](https://www.acmicpc.net/problem/16974)| [메시기모띠](https://www.acmicpc.net/problem/17297) | [쿼드 압축 후 개수 새기](https://school.programmers.co.kr/learn/courses/30/lessons/68936) |  |
-| **18주차** |01.06 ~ 01.13| DP |백준 &</br>프로그래머스|[기타리스트](https://www.acmicpc.net/problem/1495)| [내려가기](https://www.acmicpc.net/problem/2096)| [뮤탕ㄹ리스크](https://www.acmicpc.net/problem/12869) | [N으로 표현하기](https://school.programmers.co.kr/learn/courses/30/lessons/42895) |  |
+| **18주차** |01.06 ~ 01.13| DP |백준 &</br>프로그래머스|[기타리스트](https://www.acmicpc.net/problem/1495)| [내려가기](https://www.acmicpc.net/problem/2096)| [뮤리스크](https://www.acmicpc.net/problem/12869) | [N으로 표현하기](https://school.programmers.co.kr/learn/courses/30/lessons/42895) |  |
 
 
 
