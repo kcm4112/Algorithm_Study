@@ -1,6 +1,6 @@
 ## **📃 스터디 규칙**
 
-1. 매주 금요일 오후 7시 대면 회의를 1회 진행한다. (장소와 시간은 변경될 수 있음)
+1. 매주 수요일 오후 6시 대면 회의를 1회 진행한다. (장소와 시간은 변경될 수 있음)
 2. 문제 풀이 기한은  ~ 다음주 회의 전까지이다.
 3. 매주 4개의 문제를 풀이
 4. 본인 코드 설명은 템플릿을 참고하여 `README.md`에 기록
@@ -35,7 +35,7 @@
 </details>
 
 <details>
-<summary>11주차 ~ 20주차</summary>
+<summary>11주차 ~ 19주차</summary>
 <br>
   
 ||날짜|알고리즘|출처 |문제1|문제2|문제3|문제4|
@@ -50,12 +50,18 @@
 | **18주차** |01.06 ~ 01.13| DP |백준 &</br>프로그래머스|[기타리스트](https://www.acmicpc.net/problem/1495)| [내려가기](https://www.acmicpc.net/problem/2096)| [뮤탈리스크](https://www.acmicpc.net/problem/12869) | [N으로 표현하기](https://school.programmers.co.kr/learn/courses/30/lessons/42895) |  |
 | **19주차** |01.13 ~ 01.20| 구현 |백준 &</br>프로그래머스|[구슬탈출2](https://www.acmicpc.net/problem/13460)| [톱니바퀴](https://www.acmicpc.net/problem/14891)| [게리맨더링2](https://www.acmicpc.net/problem/17779) | [이모티콘 할인행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368) |  |
 
+</details>
+<details>
+<summary>20주차 ~ 30주차</summary>
+<br>
+
+||날짜|알고리즘|출처 |문제1|문제2|문제3|문제4|
+|--|--|--|--|--|--|--|--|
+| **20주차** |03.15 ~ 03.22.| 그리디/백트래킹 |백준 |[카드 정렬하기](https://www.acmicpc.net/problem/1715)| [전구와 스위치](https://www.acmicpc.net/problem/2138)| [부등호](https://www.acmicpc.net/problem/2529) | [스도쿠](https://www.acmicpc.net/problem/2580) 
 
 
 </details>
-<br>
-    
-    
+<br>    
 
 ## **🗂 폴더 구조**
 
