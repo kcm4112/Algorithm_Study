@@ -24,7 +24,7 @@ int main()
     cout << banswer << "\n"
          << sanswer << endl;
 }
-void funct(int step, string s)
+void funct(int step, string s) // 백트래킹 함수.
 {
     bool opt = true;
     if (str[step] == '>') // 왼쪽 방향은 true
