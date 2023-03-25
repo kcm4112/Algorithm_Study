@@ -11,7 +11,7 @@ int main()
 {
     cin >> n >> m;
     graph.resize(n, vector<int>(m, 0));
-    dp.resize(n,vector<vector<int> >(m,vector<int>(3,INT_MAX))); //0은 
+    dp.resize(n,vector<vector<int> >(m,vector<int>(3,0))); //0은 
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < m; j++)
