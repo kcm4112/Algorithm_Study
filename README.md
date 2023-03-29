@@ -19,15 +19,15 @@
   
 ||날짜|알고리즘|출처|문제1|문제2|문제3|문제4|알고리즘설명|
 |--|--|--|--|--|--|--|--|--|
-|**1주차**|07.07. ~ 07.14.|DP + 구현|백준 |[숫자야구](https://www.acmicpc.net/problem/2503)|[도로의 개수](https://www.acmicpc.net/problem/1577)|[카드 구매하기](https://www.acmicpc.net/problem/11052)|[동전1](https://www.acmicpc.net/problem/2293)|
-| **2주차** |07.14. ~ 07.21.|문자열 + 정렬|백준 |[문자열 폭발](https://www.acmicpc.net/problem/9935) | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | [괄호 제거](https://www.acmicpc.net/problem/2800) | [센서](https://www.acmicpc.net/problem/2212) |
-| **3주차** |07.21. ~ 07.28.| 그리디 |백준 |[동전 0](https://www.acmicpc.net/problem/11047) | [DNA](https://www.acmicpc.net/problem/1969) | [단어 수학](https://www.acmicpc.net/problem/1339) | [과제](https://www.acmicpc.net/problem/13904) |[강창민](https://github.com/kcm4112)|
-| **4주차** |07.28. ~ 08.04.| DFS,BFS |백준 |[빙산](https://www.acmicpc.net/problem/2573) | [토마토](https://www.acmicpc.net/problem/7569) | [촌수계산](https://www.acmicpc.net/problem/2644) || [이재한](https://github.com/jaehan4707)
-| **5주차** |08.04 ~ 08.11.| DFS,BFS |백준 |[숨바꼭질](https://www.acmicpc.net/problem/1697) | [안전영역](https://www.acmicpc.net/problem/2468) | [바이러스](https://www.acmicpc.net/problem/2606) | [플로이드](https://www.acmicpc.net/problem/11404) ||
-| **6주차** |08.11 ~ 08.18.| Dijkstra |백준 |[지름길](https://www.acmicpc.net/problem/1446) | [최소비용 구하기](https://www.acmicpc.net/problem/1916) | [백도어](https://www.acmicpc.net/problem/17396) | [최단경로](https://www.acmicpc.net/problem/1753) |[서정록](https://github.com/seojeongrok) |
-| **7주차** |08.18 ~ 08.25.| 구현 |백준 |[인구이동](https://www.acmicpc.net/problem/16234) | [싸이버개강총회](https://www.acmicpc.net/problem/19583) | [추월](https://www.acmicpc.net/problem/2002) | [AC](https://www.acmicpc.net/problem/5430) |  |
-| **8주차** |08.25 ~ 09.01.| 분할정복 |백준 |[Moo게임](https://www.acmicpc.net/problem/5904)| [종이의 개수](https://www.acmicpc.net/problem/1780)| [종이접기](https://www.acmicpc.net/problem/1802) | [쿼드트리](https://www.acmicpc.net/problem/1992) | [이지언](https://github.com/Leejieon) |
-| **9주차** |09.01 ~ 09.08.| DP |백준 |[포도주 시식](https://www.acmicpc.net/problem/2156)| [데스노트](https://www.acmicpc.net/problem/2281)| [동물원](https://www.acmicpc.net/problem/1309) | [돌 게임3](https://www.acmicpc.net/problem/9657) |  |
+|**1주차** |07.07. ~ 07.14.|DP + 구현|백준 |[숫자야구](https://www.acmicpc.net/problem/2503)|[도로의 개수](https://www.acmicpc.net/problem/1577)|[카드 구매하기](https://www.acmicpc.net/problem/11052)|[동전1](https://www.acmicpc.net/problem/2293)|
+| **2주차**  |07.14. ~ 07.21.|문자열 + 정렬|백준 |[문자열 폭발](https://www.acmicpc.net/problem/9935) | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | [괄호 제거](https://www.acmicpc.net/problem/2800) | [센서](https://www.acmicpc.net/problem/2212) |
+| **3주차**  |07.21. ~ 07.28.| 그리디 |백준 |[동전 0](https://www.acmicpc.net/problem/11047) | [DNA](https://www.acmicpc.net/problem/1969) | [단어 수학](https://www.acmicpc.net/problem/1339) | [과제](https://www.acmicpc.net/problem/13904) |[강창민](https://github.com/kcm4112)|
+| **4주차**  |07.28. ~ 08.04.| DFS,BFS |백준 |[빙산](https://www.acmicpc.net/problem/2573) | [토마토](https://www.acmicpc.net/problem/7569) | [촌수계산](https://www.acmicpc.net/problem/2644) || [이재한](https://github.com/jaehan4707)
+| **5주차**  |08.04 ~ 08.11.| DFS,BFS |백준 |[숨바꼭질](https://www.acmicpc.net/problem/1697) | [안전영역](https://www.acmicpc.net/problem/2468) | [바이러스](https://www.acmicpc.net/problem/2606) | [플로이드](https://www.acmicpc.net/problem/11404) ||
+| **6주차**  |08.11 ~ 08.18.| Dijkstra |백준 |[지름길](https://www.acmicpc.net/problem/1446) | [최소비용 구하기](https://www.acmicpc.net/problem/1916) | [백도어](https://www.acmicpc.net/problem/17396) | [최단경로](https://www.acmicpc.net/problem/1753) |[서정록](https://github.com/seojeongrok) |
+| **7주차**  |08.18 ~ 08.25.| 구현 |백준 |[인구이동](https://www.acmicpc.net/problem/16234) | [싸이버개강총회](https://www.acmicpc.net/problem/19583) | [추월](https://www.acmicpc.net/problem/2002) | [AC](https://www.acmicpc.net/problem/5430) |  |
+| **8주차**  |08.25 ~ 09.01.| 분할정복 |백준 |[Moo게임](https://www.acmicpc.net/problem/5904)| [종이의 개수](https://www.acmicpc.net/problem/1780)| [종이접기](https://www.acmicpc.net/problem/1802) | [쿼드트리](https://www.acmicpc.net/problem/1992) | [이지언](https://github.com/Leejieon) |
+| **9주차**  |09.01 ~ 09.08.| DP |백준 |[포도주 시식](https://www.acmicpc.net/problem/2156)| [데스노트](https://www.acmicpc.net/problem/2281)| [동물원](https://www.acmicpc.net/problem/1309) | [돌 게임3](https://www.acmicpc.net/problem/9657) |  |
 | **10주차** |09.13 ~ 09.16.| 구현 |백준 |[마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)| [마인크래프트](https://www.acmicpc.net/problem/18111)| [테트로미노](https://www.acmicpc.net/problem/14500) | [](https://www.acmicpc.net/problem/9657) |  |
 
 
@@ -40,15 +40,15 @@
   
 ||날짜|알고리즘|출처 |문제1|문제2|문제3|문제4|
 |--|--|--|--|--|--|--|--|
-| **11주차** |09.16 ~ 09.23.| 문자열/정렬 |백준 |[공통 부분 문자열](https://www.acmicpc.net/problem/5582)| [절사평균](https://www.acmicpc.net/problem/6986)| [회문](https://www.acmicpc.net/problem/17609) | [](https://www.acmicpc.net/problem/9657) |  |
-| **12주차** |09.30 ~ 10.06| 문자열/정렬 |백준 |[강의실배정](https://www.acmicpc.net/problem/11000)| [전화번호 목록](https://www.acmicpc.net/problem/5052)| [단어 맞추기](https://www.acmicpc.net/problem/9081) | [배](https://www.acmicpc.net/problem/1092) |  |
-| **13주차** |10.07 ~ 10.28| BFS/DFS |백준 |[치즈](https://www.acmicpc.net/problem/2636)| [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)| [효율적인 해킹](https://www.acmicpc.net/problem/1325) | [맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205) |  |
-| **14주차** |11.11 ~ 11.18| BFS/DFS |백준 |[알파벳](https://www.acmicpc.net/problem/1987)| [나무 탈출](https://www.acmicpc.net/problem/15900)| [점프왕젤리(L)](https://www.acmicpc.net/problem/16174) | [숫자고르기](https://www.acmicpc.net/problem/2668) |  |
-| **15주차** |11.18 ~ 11.25| 다익스트라 |백준 |[특정거리의 도시 찾기](https://www.acmicpc.net/problem/18352)| [숨바꼭질3](https://www.acmicpc.net/problem/13549)| [녹색 옷 입은애가 젤다지?](https://www.acmicpc.net/problem/4485) | [알고스팟](https://www.acmicpc.net/problem/1261) |  |
-| **16주차** |12.23 ~ 12.30| 구현 |백준 &</br>프로그래머스|[사다리 타기](https://www.acmicpc.net/problem/2469)| [Puyo Puyo](https://www.acmicpc.net/problem/11559)| [드래곤 커브](https://www.acmicpc.net/problem/15685) | [택배상자](https://school.programmers.co.kr/learn/courses/30/lessons/131704) |  |
-| **17주차** |12.30 ~ 01.06| 분할정복 |백준 &</br>프로그래머스|[색종이만들기](https://www.acmicpc.net/problem/2630)| [레벨 햄버거](https://www.acmicpc.net/problem/16974)| [메시기모띠](https://www.acmicpc.net/problem/17297) | [쿼드 압축 후 개수 새기](https://school.programmers.co.kr/learn/courses/30/lessons/68936) |  |
-| **18주차** |01.06 ~ 01.13| DP |백준 &</br>프로그래머스|[기타리스트](https://www.acmicpc.net/problem/1495)| [내려가기](https://www.acmicpc.net/problem/2096)| [뮤탈리스크](https://www.acmicpc.net/problem/12869) | [N으로 표현하기](https://school.programmers.co.kr/learn/courses/30/lessons/42895) |  |
-| **19주차** |01.13 ~ 01.20| 구현 |백준 &</br>프로그래머스|[구슬탈출2](https://www.acmicpc.net/problem/13460)| [톱니바퀴](https://www.acmicpc.net/problem/14891)| [게리맨더링2](https://www.acmicpc.net/problem/17779) | [이모티콘 할인행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368) |  |
+| **11주차**  |09.16 ~ 09.23.| 문자열/정렬 |백준 |[공통 부분 문자열](https://www.acmicpc.net/problem/5582)| [절사평균](https://www.acmicpc.net/problem/6986)| [회문](https://www.acmicpc.net/problem/17609) | [](https://www.acmicpc.net/problem/9657) |  |
+| **12주차**  |09.30 ~ 10.06| 문자열/정렬 |백준 |[강의실배정](https://www.acmicpc.net/problem/11000)| [전화번호 목록](https://www.acmicpc.net/problem/5052)| [단어 맞추기](https://www.acmicpc.net/problem/9081) | [배](https://www.acmicpc.net/problem/1092) |  |
+| **13주차**  |10.07 ~ 10.28| BFS/DFS |백준 |[치즈](https://www.acmicpc.net/problem/2636)| [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)| [효율적인 해킹](https://www.acmicpc.net/problem/1325) | [맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205) |  |
+| **14주차**  |11.11 ~ 11.18| BFS/DFS |백준 |[알파벳](https://www.acmicpc.net/problem/1987)| [나무 탈출](https://www.acmicpc.net/problem/15900)| [점프왕젤리(L)](https://www.acmicpc.net/problem/16174) | [숫자고르기](https://www.acmicpc.net/problem/2668) |  |
+| **15주차**  |11.18 ~ 11.25| 다익스트라 |백준 |[특정거리의 도시 찾기](https://www.acmicpc.net/problem/18352)| [숨바꼭질3](https://www.acmicpc.net/problem/13549)| [녹색 옷 입은애가 젤다지?](https://www.acmicpc.net/problem/4485) | [알고스팟](https://www.acmicpc.net/problem/1261) |  |
+| **16주차**  |12.23 ~ 12.30| 구현 |백준 &</br>프로그래머스|[사다리 타기](https://www.acmicpc.net/problem/2469)| [Puyo Puyo](https://www.acmicpc.net/problem/11559)| [드래곤 커브](https://www.acmicpc.net/problem/15685) | [택배상자](https://school.programmers.co.kr/learn/courses/30/lessons/131704) |  |
+| **17주차**  |12.30 ~ 01.06| 분할정복 |백준 &</br>프로그래머스|[색종이만들기](https://www.acmicpc.net/problem/2630)| [레벨 햄버거](https://www.acmicpc.net/problem/16974)| [메시기모띠](https://www.acmicpc.net/problem/17297) | [쿼드 압축 후 개수 새기](https://school.programmers.co.kr/learn/courses/30/lessons/68936) |  |
+| **18주차**  |01.06 ~ 01.13| DP |백준 &</br>프로그래머스|[기타리스트](https://www.acmicpc.net/problem/1495)| [내려가기](https://www.acmicpc.net/problem/2096)| [뮤탈리스크](https://www.acmicpc.net/problem/12869) | [N으로 표현하기](https://school.programmers.co.kr/learn/courses/30/lessons/42895) |  |
+| **19주차**  |01.13 ~ 01.20| 구현 |백준 &</br>프로그래머스|[구슬탈출2](https://www.acmicpc.net/problem/13460)| [톱니바퀴](https://www.acmicpc.net/problem/14891)| [게리맨더링2](https://www.acmicpc.net/problem/17779) | [이모티콘 할인행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368) |  |
 
 </details>
 <details>
@@ -57,9 +57,9 @@
 
 ||날짜|알고리즘|출처 |문제1|문제2|문제3|선택 문제4|
 |--|--|--|--|--|--|--|--|
-| **20주차** |03.15 ~ 03.22.| 그리디/백트래킹 |백준 |[카드 정렬하기](https://www.acmicpc.net/problem/1715)| [전구와 스위치](https://www.acmicpc.net/problem/2138)| [부등호](https://www.acmicpc.net/problem/2529) | [스도쿠](https://www.acmicpc.net/problem/2580) 
-| **21주차** |03.22 ~ 03.29.| DP |백준/프로그래머스 |[진우의 달 여행](https://www.acmicpc.net/problem/17485)| [앱](https://www.acmicpc.net/problem/7579)| [암호코드](https://www.acmicpc.net/problem/2011) | [주차 요금 계산](https://school.programmers.co.kr/learn/courses/30/lessons/92341) 
-| **22주차** |03.29 ~ 04.05.|투 포인터|백준/프로그래머스 |[두 용액](https://www.acmicpc.net/problem/2470)| [겹치는 건 싫어](https://www.acmicpc.net/problem/20922)| [놀이공원](https://www.acmicpc.net/problem/1561) | [광물 캐기](https://school.programmers.co.kr/learn/courses/30/lessons/172927) 
+| **20주차**  |03.15 ~ 03.22.| 그리디/백트래킹 |백준 |[카드 정렬하기](https://www.acmicpc.net/problem/1715)| [전구와 스위치](https://www.acmicpc.net/problem/2138)| [부등호](https://www.acmicpc.net/problem/2529) | [스도쿠](https://www.acmicpc.net/problem/2580) 
+| **21주차**  |03.22 ~ 03.29.| DP |백준/프로그래머스 |[진우의 달 여행](https://www.acmicpc.net/problem/17485)| [앱](https://www.acmicpc.net/problem/7579)| [암호코드](https://www.acmicpc.net/problem/2011) | [주차 요금 계산](https://school.programmers.co.kr/learn/courses/30/lessons/92341) 
+| **22주차**  |03.29 ~ 04.05.|투 포인터|백준/프로그래머스 |[두 용액](https://www.acmicpc.net/problem/2470)| [겹치는 건 싫어](https://www.acmicpc.net/problem/20922)| [놀이공원](https://www.acmicpc.net/problem/1561) | [광물 캐기](https://school.programmers.co.kr/learn/courses/30/lessons/172927) 
 
 </details>
 <br>    
