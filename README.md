@@ -60,6 +60,8 @@
 | **20주차**  |03.15 ~ 03.22.| 그리디/백트래킹 |백준 |[카드 정렬하기](https://www.acmicpc.net/problem/1715)| [전구와 스위치](https://www.acmicpc.net/problem/2138)| [부등호](https://www.acmicpc.net/problem/2529) | [스도쿠](https://www.acmicpc.net/problem/2580) 
 | **21주차**  |03.22 ~ 03.29.| DP |백준/프로그래머스 |[진우의 달 여행](https://www.acmicpc.net/problem/17485)| [앱](https://www.acmicpc.net/problem/7579)| [암호코드](https://www.acmicpc.net/problem/2011) | [주차 요금 계산](https://school.programmers.co.kr/learn/courses/30/lessons/92341) 
 | **22주차**  |03.29 ~ 04.05.|투 포인터|백준/프로그래머스 |[두 용액](https://www.acmicpc.net/problem/2470)| [겹치는 건 싫어](https://www.acmicpc.net/problem/20922)| [놀이공원](https://www.acmicpc.net/problem/1561) | [광물 캐기](https://school.programmers.co.kr/learn/courses/30/lessons/172927) 
+| **23주차**  |04.05 ~ 04.12.|BFS/DFS|백준/프로그래머스 |[말이 되고픈 원숭이](https://www.acmicpc.net/problem/1600)| [백조의 호수](https://www.acmicpc.net/problem/3197)| [레아저통신](https://www.acmicpc.net/problem/6087) | [벽 부수고 이동하기](https://www.acmicpc.net/problem/16933) 
+
 
 </details>
 <br>    
