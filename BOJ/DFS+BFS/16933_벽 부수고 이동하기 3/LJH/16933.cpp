@@ -68,7 +68,7 @@ void funct()
                 q.push(make_tuple(nr, nc, wall, !sun));
             }
         }
-        if (v[r][c][wall][!sun] == 0) //정지상황
+        if (sun == 0 && v[r][c][wall][!sun] == 0) //정지상황
         {
             v[r][c][wall][!sun] = v[r][c][wall][sun] + 1;
             q.push(make_tuple(r, c, wall, !sun));
