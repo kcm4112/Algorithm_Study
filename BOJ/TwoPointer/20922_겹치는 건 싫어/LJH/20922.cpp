@@ -20,6 +20,7 @@ int main(){
             start++;
         }
         else{
+            
             v[ary[end]]++;
             end++;
         }
