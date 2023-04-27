@@ -40,6 +40,7 @@ void funct()
 
     q.push(make_pair(make_pair(0, 0), 0));
     v[0][0][0] = 0;
+
     while (!q.empty())
     {
         auto loc = q.front().first; //(row, col)
