@@ -9,6 +9,7 @@ int funct(int start, int end);
 int main()
 {
     cin.tie(NULL);
+    
     ios_base ::sync_with_stdio(false);
     cin >> n;
     ary.resize(n + 1, 0);
