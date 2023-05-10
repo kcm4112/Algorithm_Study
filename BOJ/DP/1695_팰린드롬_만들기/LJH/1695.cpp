@@ -34,8 +34,8 @@ int funct(int start, int end)
     }
     else
     { // 다를 경우. 끼워넣는 방법은 몇가지일까. 왼쪽을 오른쪽끝에 넣기 vs 오른쪽을 왼쪽 끝에 넣기?
-        int right = 1 + funct(start, end - 1); //오른쪽에 끼워넣기.
-        int left = 1 + funct(start + 1, end); //왼쪽에 끼워넣기.
+        int right = 1 + funct(start, end - 1); //오른쪽 숫자를 왼쪽에 끼워넣기.
+        int left = 1 + funct(start + 1, end); //왼쪽 숫자를 오른쪽에 끼워넣기.
         if (left < right) //최소로 끼워야 함.
             dp[start][end] = left;
         else
