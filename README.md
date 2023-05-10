@@ -63,8 +63,7 @@
 | **23주차**  |04.05 ~ 04.12.|BFS/DFS|백준/프로그래머스 |[말이 되고픈 원숭이](https://www.acmicpc.net/problem/1600)| [백조의 호수](https://www.acmicpc.net/problem/3197)| [레이저통신](https://www.acmicpc.net/problem/6087) | [벽 부수고 이동하기 3](https://www.acmicpc.net/problem/16933) 
 | **24주차**  |04.26 ~ 05.03.|DP|백준|[ACM Craft](https://www.acmicpc.net/problem/1005)| [내리막길](https://www.acmicpc.net/problem/1520)| [팰린드롬 만들기](https://www.acmicpc.net/problem/1695) | [팰린드롬?](https://www.acmicpc.net/problem/10942) 
 | **25주차**  |05.03 ~ 05.10.|구현|백준|[주민등록번호](https://www.acmicpc.net/problem/1664)| [미세먼지 안녕!](https://www.acmicpc.net/problem/17144)| [상어초등학교](https://www.acmicpc.net/problem/21608) | [HTML파싱](https://www.acmicpc.net/problem/22859) 
-
-
+| **26주차**  |05.10 ~ 05.17.|트리|백준|[사회망 서비스(SNS)](https://www.acmicpc.net/problem/2533)|[트리의 지름](https://www.acmicpc.net/problem/1967)| [사촌](https://www.acmicpc.net/problem/9489) | [ㄷㄷㄷㅈ](https://www.acmicpc.net/problem/19535) 
 </details>
 <br>    
 
