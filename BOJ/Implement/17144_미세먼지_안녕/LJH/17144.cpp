@@ -10,20 +10,18 @@ void dust_move();
 vector<pair<int,int> >mc;
 queue<pair<int,int> >dust;
 void air();
-void print_ary();
-int main(){
-    
+int main(){    
     cin>>r>>c>>t;
     ary.resize(r,vector<int>(c,0));
     for(int i=0; i<r; i++){
         for(int j=0; j<c;j++){
             cin>>ary[i][j];
-            if(ary[i][j]==-1){
+            if(ary[i][j]==-1)
                 mc.push_back(make_pair(i,j));
-            }
         }
     }
     urow = mc[0].first,ucol=mc[0].second,drow=mc[1].first,dcol=mc[1].second;
+    //urow,ucol은 공기청정기 윗부분, drow,dcol은 공기청정기 아랫부분
     while(t--){
         dust_move();
         air();        
@@ -42,22 +40,20 @@ int main(){
 void air(){ //공기청정기 작동. 시계방향, 반시계방향으로 공기청정기로 들어오는 미세먼지는 없어진다.
     //좌표 기준으로 반시계, 시계 방향
     //시계방향
-    int temp =  ary[drow][c-1]; // ->
+    int temp =  ary[drow][c-1]; // 꼭짓점 값들을 미리 추출.
     int temp2=ary[r-1][c-1]; 
     int temp3=ary[r-1][0]; 
     for(int i=c-1; i>1; i--){     //위쪽
         ary[drow][i]=ary[drow][i-1];
     }
-    ary[drow][1]=0;
-   // 오른쪽
-    for(int i=r-1; i>drow; i--){
+    ary[drow][1]=0; //공기청정기 바로 오른쪽 칸은 0이 된다.
+    for(int i=r-1; i>drow; i--){ // 오른쪽
         if(i==drow+1){
             ary[i][c-1]=temp;
             continue;
         }
         ary[i][c-1]=ary[i-1][c-1];
     }
- 
     for(int i=0;i<c-1;i++){ // 아래쪽
         if(i==c-2){
             ary[r-1][i]=temp2;
@@ -73,7 +69,7 @@ void air(){ //공기청정기 작동. 시계방향, 반시계방향으로 공기
         ary[i][0]=ary[i+1][0];
     }
     //반시계 방향
-    temp=ary[urow][c-1];
+    temp=ary[urow][c-1]; //미리 꼭짓점 값들을 추출함.
     temp2=ary[0][c-1];
     temp3=ary[0][0];
     for(int i=c-1; i>0; i--){ //아래
@@ -120,8 +116,7 @@ void dust_move(){ //여기까지는 잘 되는듯.
     vector<vector<int> >v;
     v.assign(r,vector<int>(c,0));
     v=ary;
-    int size= dust.size();
-    while(size--){
+    while(!dust.empty()){
         int row =dust.front().first, col = dust.front().second;
         int val = ary[row][col]/5;
         dust.pop();
