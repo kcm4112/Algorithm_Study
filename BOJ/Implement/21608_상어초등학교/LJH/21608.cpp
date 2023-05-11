@@ -56,7 +56,7 @@ void find_blank(int idx, vector<int> p[])
     {
         for (int j = 0; j < n; j++)
         {
-            if (ary[i][j] != 0)
+            if (ary[i][j] != 0) //이미 들어있는 칸은 탐색할 필요가 없다.
                 continue;
             cnt = 0;
             fcnt = 0;
@@ -68,8 +68,7 @@ void find_blank(int idx, vector<int> p[])
                 if (ary[nx][ny] == 0)
                     cnt++;
                 // cout<<"좋아하는 사람 찾기 "<<endl;
-                for (int k = 0; k < 4; k++)
-                {
+                for (int k = 0; k < 4; k++){
                     if (ary[nx][ny] == p[idx][k])// 좋아하는 놈일때.
                         fcnt++;
                 }
