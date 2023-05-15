@@ -30,11 +30,11 @@ void funct(int idx){
     V[idx]=true; //방문처리.
     dp[idx][0]=1; //
     for(int i=0; i<graph[idx].size();i++){
-        int next=graph[idx][i];
-        if(V[next])
+        int next=graph[idx][i]; //다음 방문할 지역
+        if(V[next]) //방문한 지역이라면
             continue;
         funct(next);
-        dp[idx][0]+=min(dp[next][0], dp[next][1]); //idx가 얼리어답터일때. 최소 얼리어답터 수 .
-        dp[idx][1]+=dp[next][0]; //idx가 얼리어답터가 아닐때, 최소 얼리어답터 수
+        dp[idx][0]+=min(dp[next][0], dp[next][1]); //idx가 얼리어답터일때
+        dp[idx][1]+=dp[next][0]; //idx가 얼리어답터가 아닐때
     }
 }
